@@ -1,15 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SuperFood Exports — For a Healthier Planet</title>
+  <meta name="description" content="SuperFood Exports ships premium Indian superfoods globally — Moringa, Millets, Spices, Pickles & Herbal Powders. Private label & export-ready packaging." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://superfoodexportsglobal.com/" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html,body{scroll-behavior:smooth}
+    .badge-chip{border:1px solid rgba(22,163,74,.2);background:rgba(22,163,74,.06)}
+    .icon{display:inline-flex;align-items:center;gap:8px}
+    .logo-wrap svg{width:44px;height:44px}
+    @media(min-width:768px){.logo-wrap svg{width:52px;height:52px}}
+  </style>
 </head>
-<body class="p-10 font-sans">
-  <h1 class="text-4xl font-bold text-green-700">SuperFood Exports</h1>
-  <p class="mt-4 text-gray-700 text-lg">Website running on GitHub Pages ✅</p>
-  <p class="mt-2 text-gray-600">Next step: attach your custom domain superfoodexportsglobal.com</p>
-  <a href="/success.html" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg">Go to Success Page</a>
+<body class="bg-white text-gray-900 antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3" aria-label="SuperFood Exports home">
+        <div class="logo-wrap" aria-hidden="true">
+          <!-- Inline SFE badge SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+            <circle cx="80" cy="80" r="76" fill="none" stroke="#C8A646" stroke-width="6"/>
+            <circle cx="80" cy="80" r="60" fill="#166534"/>
+            <defs><path id="circlePath" d="M80,80 m-66,0 a66,66 0 1,1 132,0 a66,66 0 1,1 -132,0"/></defs>
+            <text font-family="Inter, Arial, sans-serif" font-size="10" fill="#0F172A" letter-spacing=".08em">
+              <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+                SUPERFOOD EXPORTS • FOR A HEALTHIER PLANET •
+              </textPath>
+            </text>
+            <g font-family="Inter, Arial, sans-serif" font-weight="800" font-size="44" fill="#F8FAFC">
+              <text x="80" y="95" text-anchor="middle">SFE</text>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <p class="font-extrabold leading-none">SuperFood Exports</p>
+          <p class="text-[11px] text-green-700 italic">For a Healthier Planet</p>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex gap-6 text-sm" aria-label="Main navigation">
+        <a href="#superfoods-frame" class="hover:text-green-700">All Superfoods</a>
+        <a href="#products" class="hover:text-green-700">Products</a>
+        <a href="#why" class="hover:text-green-700">Why Us</a>
+        <a href="#quality" class="hover:text-green-700">Quality</a>
+        <a href="#contact" class="hover:text-green-700">Contact</a>
+      </nav>
+
+      <a href="#contact" class="rounded-2xl px-4 py-2 bg-green-600 text-white text-sm font-semibold shadow hover:bg-green-700">Get Quote</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-green-50 to-white -z-10"></div>
+    <section class="max-w-6xl mx-auto px-4 py-12 md:py-18 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          Premium Indian <span class="text-green-700">Superfoods</span> — Shipped Globally
+        </h1>
+        <p class="mt-3 text-green-700 italic">For a Healthier Planet</p>
+        <p class="mt-4 text-gray-700 text-lg">
+          We supply Moringa, Millets, Spices, Pickles &amp; Herbal Powders with export-grade packaging,
+          private label options, and reliable logistics for buyers worldwide.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#superfoods-frame" class="px-5 py-3 rounded-2xl bg-green-600 text-white font-semibold hover:bg-green-700 shadow">View All Superfoods</a>
+          <a href="#contact" class="px-5 py-3 rounded-2xl border font-semibold hover:bg-gray-50">Request Pricing</a>
+        </div>
+        <div class="mt-6 flex flex-wrap items-center gap-2 text-xs">
+          <span class="px-2 py-1 rounded-xl badge-chip">APEDA</span>
+          <span class="px-2 py-1 rounded-xl badge-chip">FSSAI-sourced</span>
+          <span class="px-2 py-1 rounded-xl badge-chip">MSME</span>
+          <span class="px-2 py-1 rounded-xl badge-chip">Private Label Available</span>
+        </div>
+      </div>
+
+      <div class="md:pl-6">
+        <a href="#superfoods-frame" class="block rounded-3xl border p-1 bg-gradient-to-br from-green-600/10 to-green-600/0 hover:shadow-lg transition">
+          <div class="rounded-3xl border bg-white p-4">
+            <div class="text-sm text-gray-600 mb-3">Tap to view: All Superfoods in one frame</div>
+            <div class="grid grid-cols-4 gap-2">
+              <div class="rounded-xl border p-4 text-center"><div class="text-2xl">🌿</div><div class="text-xs mt-1">Moringa</div></div>
+              <div class="rounded-xl border p-4 text-center"><div class="text-2xl">🌾</div><div class="text-xs mt-1">Millets</div></div>
+              <div class="rounded-xl border p-4 text-center"><div class="text-2xl">🫘</div><div class="text-xs mt-1">Pulses</div></div>
+              <div class="rounded-xl border p-4 text-center"><div class="text-2xl">🫙</div><div class="text-xs mt-1">Spices</div></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- All Superfoods One Frame -->
+    <section id="superfoods-frame" class="py-10 md:py-14 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="rounded-3xl border shadow-sm overflow-hidden">
+          <div class="px-6 py-4 bg-green-600 text-white font-semibold flex items-center justify-between">
+            <span>All Superfoods — One Frame</span>
+            <span class="text-xs opacity-90">Scroll for more</span>
+          </div>
+          <div class="p-4 bg-white">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🌿</div><div class="font-semibold mt-2 text-sm">Moringa Powder</div><div class="text-[11px] text-gray-500">Fine mesh • COA</div></div>
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🌾</div><div class="font-semibold mt-2 text-sm">Millets</div><div class="text-[11px] text-gray-500">Ragi • Foxtail • Kodo</div></div>
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🫘</div><div class="font-semibold mt-2 text-sm">Pulses</div><div class="text-[11px] text-gray-500">Toor • Moong • Chana</div></div>
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🫙</div><div class="font-semibold mt-2 text-sm">Spices</div><div class="text-[11px] text-gray-500">Whole &amp; Ground</div></div>
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🥒</div><div class="font-semibold mt-2 text-sm">Pickles</div><div class="text-[11px] text-gray-500">300ml Glass</div></div>
+              <div class="border rounded-xl p-3 text-center"><div class="text-3xl">🍵</div><div class="font-semibold mt-2 text-sm">Herbal Powders</div><div class="text-[11px] text-gray-500">Ayurveda Mixes</div></div>
+            </div>
+          </div>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">Note: Swap emojis with product photos later.</p>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 md:py-24 border-t bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-end justify-between gap-6">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-extrabold">Products</h2>
+            <p class="mt-2 text-gray-600">Bulk &amp; Private Label • Global Shipments</p>
+          </div>
+          <a href="#contact" class="hidden md:inline-block px-4 py-2 rounded-xl bg-gray-900 text-white text-sm font-semibold">Get Full Catalog</a>
+        </div>
+
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">Moringa Leaf Powder</h3><p class="mt-2 text-sm text-gray-600">Bright green, fine mesh, pure leaf powder. 100g–1kg pouches &amp; 25kg bulk. COA available.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">Millets &amp; Millet Flour</h3><p class="mt-2 text-sm text-gray-600">Ragi, Foxtail, Little, Kodo. Whole grains &amp; flour. Retail &amp; bulk export packing.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">Spices &amp; Masala Blends</h3><p class="mt-2 text-sm text-gray-600">Whole &amp; ground spices. Custom blends for private label.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">Pickles (300ml Glass)</h3><p class="mt-2 text-sm text-gray-600">Mango, Mixed Veg, Lime, Chilli. Tamper-evident caps. Export cartons.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">Herbal &amp; Ayurveda Powders</h3><p class="mt-2 text-sm text-gray-600">Ashwagandha, Triphala, Beetroot, Turmeric latte mixes.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+          <div class="rounded-2xl border p-6 hover:shadow-lg transition"><h3 class="font-bold text-lg">FMCG &amp; Grocery Lines</h3><p class="mt-2 text-sm text-gray-600">Jaggery, ready mixes, teas, and healthy snacks on request.</p><a href="#contact" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Request Price</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why" class="py-16 md:py-24 bg-green-50 border-y">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Why Choose Us</h2>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="rounded-2xl bg-white border p-6"><div class="text-2xl">✅</div><div class="font-semibold mt-2">Private Label</div><p class="text-sm text-gray-600 mt-1">Custom branding, barcodes, and artwork support.</p></div>
+          <div class="rounded-2xl bg-white border p-6"><div class="text-2xl">✅</div><div class="font-semibold mt-2">Quality Control</div><p class="text-sm text-gray-600 mt-1">FSSAI-sourced suppliers, batch COA, hygiene-first packing.</p></div>
+          <div class="rounded-2xl bg-white border p-6"><div class="text-2xl">✅</div><div class="font-semibold mt-2">Flexible MOQ</div><p class="text-sm text-gray-600 mt-1">Start with trial air shipments; scale to sea pallets.</p></div>
+          <div class="rounded-2xl bg-white border p-6"><div class="text-2xl">✅</div><div class="font-semibold mt-2">On-Time Shipping</div><p class="text-sm text-gray-600 mt-1">Efficient documentation and reliable logistics.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality -->
+    <section id="quality" class="py-16 md:py-24 bg-white border-t">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Quality &amp; Compliance</h2>
+        <div class="mt-8 grid md:grid-cols-2 gap-8">
+          <div class="rounded-2xl border p-6">
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>Products sourced from FSSAI-compliant units</li>
+              <li>Batch-wise COA (microbiology, heavy metals, pesticide residues on request)</li>
+              <li>Export documents: Invoice, Packing List, COO, BL/AWB, Phyto/Fumigation as applicable</li>
+              <li>Label support: ingredients %, allergens, nutrition panel</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border p-6">
+            <h3 class="font-semibold">Shipping Modes</h3>
+            <p class="text-sm text-gray-600 mt-2">Air for trials & urgencies. Consolidated LCL/FCL sea freight for cost-effective bulk shipments.</p>
+            <div class="mt-4 grid grid-cols-2 gap-4">
+              <div class="rounded-xl bg-green-600/10 p-4"><div class="font-semibold">Air</div><div class="text-xs text-gray-600">Fast • indicative 5–10 days</div></div>
+              <div class="rounded-xl bg-green-600/10 p-4"><div class="font-semibold">Sea</div><div class="text-xs text-gray-600">Economical • indicative 25–35 days</div></div>
+            </div>
+            <p class="text-xs text-gray-400 mt-3">Transit times vary by route and carrier.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-50 border-t">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Request a Quote</h2>
+        <p class="mt-2 text-gray-600">Tell us your product list, pack sizes, and destination. We respond within 24 hours.</p>
+
+        <div class="mt-8 grid md:grid-cols-3 gap-8">
+          <div class="md:col-span-2 rounded-2xl border bg-white p-6">
+            <!-- Simple client-side form for now -->
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-4" onsubmit="event.preventDefault(); window.location.href='/success.html';">
+              <input class="border rounded-xl p-3" name="name" placeholder="Full Name" required />
+              <input class="border rounded-xl p-3" name="company" placeholder="Company" />
+              <input class="border rounded-xl p-3 md:col-span-2" name="email" placeholder="Email" type="email" required />
+              <input class="border rounded-xl p-3 md:col-span-2" name="phone" placeholder="Phone / WhatsApp" />
+              <textarea class="border rounded-xl p-3 md:col-span-2" name="requirements" rows="4" placeholder="Products & quantities (e.g., 300 x 300ml pickles; 200kg moringa; private label)"></textarea>
+
+              <div class="flex flex-wrap items-center gap-3 md:col-span-2">
+                <button class="px-5 py-3 rounded-2xl bg-green-600 text-white font-semibold hover:bg-green-700" type="submit">
+                  Send (Demo)
+                </button>
+
+                <span
+                  class="px-5 py-3 rounded-2xl border font-semibold text-gray-400 cursor-not-allowed text-sm flex items-center gap-2"
+                  title="Coming soon"
+                >
+                  📧 Email — Coming Soon
+                </span>
+
+                <span
+                  class="px-5 py-3 rounded-2xl border font-semibold text-gray-400 cursor-not-allowed text-sm flex items-center gap-2"
+                  title="Coming soon"
+                >
+                  💬 WhatsApp — Coming Soon
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <div class="rounded-2xl border bg-white p-6">
+            <h3 class="font-semibold">Company</h3>
+            <p class="text-sm text-gray-600 mt-2">SuperFood Exports</p>
+            <div class="text-sm text-gray-600 mt-3 space-y-1">
+              <p class="icon">📧 <span>—</span></p>
+              <p class="icon">📱 <span>—</span></p>
+              <p>📍 India • Serving customers globally</p>
+              <p class="text-xs text-gray-500 mt-3">GST | IEC | UDYAM | APEDA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t">
+      <div class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8">
+        <div>
+          <div class="font-extrabold">SuperFood Exports</div>
+          <div class="text-sm italic text-green-700 mt-1">For a Healthier Planet</div>
+          <p class="text-sm text-gray-600 mt-2">All-natural superfoods, shipped globally. Trial orders accepted. Private label available.</p>
+        </div>
+        <div>
+          <div class="font-semibold">Quick Links</div>
+          <ul class="mt-2 text-sm text-gray-600 space-y-1">
+            <li><a href="#superfoods-frame" class="hover:underline">All Superfoods</a></li>
+            <li><a href="#products" class="hover:underline">Products</a></li>
+            <li><a href="#quality" class="hover:underline">Quality</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-semibold">Get in Touch</div>
+          <ul class="mt-2 text-sm text-gray-600 space-y-1">
+            <li class="icon">📧 <span>—</span></li>
+            <li class="icon">📱 <span>—</span></li>
+            <li>LinkedIn: /company/superfood-exports (optional)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t text-xs text-gray-500">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2">
+          <span>© 2025 SuperFood Exports</span>
+          <span>Made in India • FSSAI/IEC compliant sourcing</span>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
